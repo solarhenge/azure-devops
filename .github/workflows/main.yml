@@ -20,11 +20,11 @@ jobs:
       with:
         python-version: 3.5
     - name: Install dependencies
-      run:
+      run: |
         make install
     - name: Lint with pylint
-      run:
+      run: |
         make lint
     - name: Test with pytest
-      run:
+      run: |
         make test
