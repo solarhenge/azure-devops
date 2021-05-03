@@ -1,4 +1,4 @@
-# This is a basic workflow to help you get started with Actions
+l# This is a basic workflow to help you get started with Actions
 
 name: CI
 
@@ -27,4 +27,4 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run make command
-        run: make test
+        run: make hello
